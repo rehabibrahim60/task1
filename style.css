@@ -1,0 +1,238 @@
+.front{
+    background-image: url(front-page-header.jpg) ;
+    width: 100%;
+    height: 750px;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-img{
+    padding: 10px;
+    width: 125px;
+    height: 55px;
+    opacity: 0.7;
+}
+.links{
+    width:50%;
+    display: flex;
+    /*flex-wrap: nowrap;*/
+    justify-content: space-between;
+    
+}
+.links a{
+    color: white;
+    size: 0.5em;
+    text-decoration: none;
+    flex: 50%;
+}
+.links a:hover{
+    color: rgb(255, 211, 35);
+}
+span.dotes{
+    color: rgb(255, 211, 35);
+}
+.front-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+}
+.front-main p{
+    color: white;
+}
+h1{
+    font-size: 50px;    
+    font-family: sans-serif;
+    font-weight: 800;
+    flex: 50%;
+}
+p{
+    color:darkgray;
+    font-size: small;
+    text-align: center;
+}
+p.front-p{
+    width: 37%;
+}
+.bts{
+    display: flex;
+    flex: 50%;
+    gap: 40px;
+    margin-top: 40px; 
+}
+.button ,button{
+    padding: 15px 60px;
+    color: white;
+    cursor: pointer;
+}
+.Learn-more{
+    background-color:transparent;
+    border-color: white;
+}
+.Download ,.button{
+    background-color:rgb(255, 211, 35);
+    border: none; 
+}
+.Download:hover{
+    background-color: rgb(106, 46, 162);
+}
+#Testimonials{
+    background-image: url(testiomnials-background.jpg);
+    width: 100%;
+    height: 500px;
+    margin:0px;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0 ;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.web-design , .web-development ,.SEO-analysis{
+    text-align: center;
+}
+.boxes .web-design h3{
+    color: #f28b6c;
+}
+.boxes .web-development h3{
+    color: #f1d104;
+}
+.boxes .SEO-analysis h3{
+    color: #6b4d8b;
+}
+.boxes div{
+    width: 28%;
+}
+#Blog{
+    background-color: #222f37;
+    color: white;
+    text-align: center;
+}
+#Blog h2{
+    padding-top: 50px;  
+}
+#Blog button{
+    background-color: #f1d104;
+    border-radius: 5px; 
+    margin: 40px 0 40px 0; 
+}
+.counter-container{
+    background-image: url(front-page-counter.jpg);
+    display: flex;
+    justify-content: center;
+}
+.counter-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 25px;
+}
+.counter-box span{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-size:large;
+    display: block;
+}
+.counter-box p{
+    padding-left: 0;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0;
+    text-align: center ;
+}
+#team{
+    background-color: rgb(250, 249, 249);
+}
+.team-container{
+    display: flex;
+    justify-content: center;
+}
+.teams-box{
+    display: flex;
+    margin: 50px 15px 50px 15px;
+}
+.teams-box img{
+    border-radius: 50%;
+}
+.form-cont{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.button{
+    float: right;
+    margin-right: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.about-p{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+#about{
+    text-align: center;
+    
+}
+.discription p{
+    color: #6a4c8a;
+    margin-left: 0;
+    padding-left: 0;
+}
+.range{
+    margin-left: 10%;
+}
+.ranges{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    background-color: rgb(250, 249, 249);
+    text-align: center;
+}
+.p1{
+    width: 24.5%;
+}
+.blog-boxes-container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-size: small;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding: 40px 10px 40px 10px;*/
+    background-color: rgb(238, 235, 232);
+    border: 1px solid white;
+    min-height: 25em;
+    min-width:  10em;
+    overflow: hidden;
+    margin: 20px;
+}
+.card-info h3{
+    color: #000;
+}
+.card-info p{
+    padding: 0 20px 0 20px;
+}
